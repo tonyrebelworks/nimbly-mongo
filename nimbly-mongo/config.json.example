@@ -1,0 +1,9 @@
+{
+    "app": {
+        "debug": true,
+        "host": "127.0.0.1:3000"
+    },
+    "db": {
+        "mysql_dsn": "user:password@tcp(localhost:3306)/dbname?charset=utf8&parseTime=True&loc=Local"
+    }
+}

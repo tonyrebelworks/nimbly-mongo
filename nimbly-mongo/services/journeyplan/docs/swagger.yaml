@@ -1,0 +1,30 @@
+basePath: /v1
+host: http://localhost:3000
+info:
+  contact:
+    email: pieter@rebelworks.co
+    name: Pieter Lelaona
+    url: http://www.swagger.io/support
+  description: This is a sample server Petstore server.
+  license:
+    name: Rebel Private
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Swagger Example API
+  version: "1.0"
+paths:
+  /:
+    get:
+      consumes:
+      - application/json
+      description: get string by ID
+      operationId: get-string-by-int
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: Add a new pet to the store
+swagger: "2.0"
